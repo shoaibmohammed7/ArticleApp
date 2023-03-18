@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Lora;
+    src: url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+}
+.article-cards{
+    margin-bottom: 10px;
+}
+.article-col{
+    margin-left: 5px;
+    /* margin-left: 40px; */
+    width: 240px;
+}
+.article-row{
+    /* padding-left: 145px; */
+}
+.view-button{
+    margin-top: 10px;
+    width: 100%;
+}
+.w-34{
+    width: 34px;
+}
+.bg-primary-color{
+    background: rgb(220 220 220 / 48%);
+}
+.article-heading{
+    font-size: 70px;
+    font-family: Lora;
+}
+
+@media screen and (max-width: 480px) {
+    .article-col{
+        /* margin-left: 5px; */
+        /* margin-left: 40px; */
+        width: 340px;
+    }
+}
